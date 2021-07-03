@@ -17,7 +17,7 @@ The default branch is `develop`; it corresponds to staging (pre-production) envi
 1. Make changes to the code, create commits, push them to the new branch;
 1. [Create pull request] from the new branch to `develop`;
 	- Observe the changes on a temporary environment;
-1. Get 2 approvals, and wait for the pull request to be merged;
+1. Get approvals, and wait for the pull request to be merged;
 	- The changes are now at staging environment (but not on prod yet);
 
 Independently, after a while, the code from `develop` will be merged to `main`. This will promote the changes from staging to production environment.
