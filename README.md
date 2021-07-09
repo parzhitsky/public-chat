@@ -4,25 +4,7 @@
 
 ## Workflow:
 
-The default branch is `develop`; it corresponds to staging (pre-production) environment. Production environment is linked to `main` branch.
-
-1. Create a branch from `develop`;
-
-	```
-	git checkout develop
-	git checkout -b <new_branch_name>
-	git push -u origin <new_branch_name>
-	```
-
-1. Make changes to the code, create commits, push them to the new branch;
-1. [Create pull request] from the new branch to `develop`;
-	- Observe the changes on a temporary environment;
-1. Get approvals, and wait for the pull request to be merged;
-	- The changes are now at staging environment (but not on prod yet);
-
-Independently, after a while, the code from `develop` will be merged to `main`. This will promote the changes from staging to production environment.
-
-  [Create pull request]: https://github.com/public-chat-team/public-chat/compare
+> See [**Workflow**](https://github.com/public-chat-team/public-chat/wiki/Workflow) page on repo Wiki.
 
 ## Scripts:
 
