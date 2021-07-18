@@ -7,7 +7,7 @@ export default function SimpleContainer() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container maxWidth="xl" style={{ padding: "0" git }}>
+      <Container maxWidth="xl" style={{ padding: "0" }}>
         <Typography
           component="div"
           style={{ backgroundColor: "#cfe8fc", height: "100vh" }}
