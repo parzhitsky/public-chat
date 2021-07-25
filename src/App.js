@@ -1,5 +1,5 @@
 import React from "react";
-import MainLayout from './Components/StyleComponents/MainLayout'
+import MainLayout from './Components/MainLayout'
 function App() {
   return (
     <div className="App">
