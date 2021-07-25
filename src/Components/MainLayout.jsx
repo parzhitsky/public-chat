@@ -5,7 +5,7 @@ import Container from "@material-ui/core/Container";
 
 import ChatContainer from "./ChatContainer";
 
-export default function SimpleContainer() {
+export default function SMainLayout() {
   return (
     <React.Fragment>
       <CssBaseline />

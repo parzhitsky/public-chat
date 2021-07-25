@@ -7,14 +7,3 @@
 }
 
 
-
-.inputs{
-    background-color: darkgoldenrod;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 20%;
-    border-top: 1px solid grey;
-    background-color: #cfe8fc;
-}

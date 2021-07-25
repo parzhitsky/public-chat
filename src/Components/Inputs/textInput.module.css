@@ -1,0 +1,31 @@
+.inputs {
+  background-color: darkgoldenrod;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 15%;
+  border-top: 1px solid grey;
+  background-color: #cfe8fc;
+  padding: 1%;
+}
+
+.textareaButton {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+textarea {
+  width: 80%;
+  border-radius: 6px;
+}
+
+input,
+button {
+  border-radius: 3px;
+}
+
+button {
+  background-color: green;
+  font-weight: 700;
+}
