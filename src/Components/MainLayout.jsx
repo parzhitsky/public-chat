@@ -15,6 +15,8 @@ export default function SimpleContainer() {
           <div className={styles.container}>
             <div className={styles.messages}>
               <div className={styles.message}>Message</div>
+              <div className={styles.message}>Message</div>
+              <div className={styles.message}>Message</div>
             </div>
             <div className={styles.inputs}>
               <textarea />
