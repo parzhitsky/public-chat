@@ -3,6 +3,7 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
 import styles from './main.module.css'
+import Messages from "./Messages/Messages";
 export default function SimpleContainer() {
   return (
     <React.Fragment>
@@ -13,11 +14,8 @@ export default function SimpleContainer() {
           style={{ backgroundColor: "#cfe8fc", height: "100vh" }}
         >
           <div className={styles.container}>
-            <div className={styles.messages}>
-              <div className={styles.message}>Message</div>
-              <div className={styles.message}>Message</div>
-              <div className={styles.message}>Message</div>
-            </div>
+            <Messages/>
+           
             <div className={styles.inputs}>
               <textarea />
               <div className={styles.typeName}>

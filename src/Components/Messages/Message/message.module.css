@@ -1,0 +1,19 @@
+.message {
+  border: 1px solid grey;
+  width: 70%;
+  margin-bottom: 1em;
+  padding: 0.5%;
+  display: flex;
+  flex-direction: column;
+}
+.messageHead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.name,
+.dateTime {
+  box-sizing: border-box;
+  display: inline-flex;
+}
